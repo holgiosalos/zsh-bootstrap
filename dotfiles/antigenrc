@@ -2,9 +2,10 @@ antigen use oh-my-zsh
 antigen bundles <<EOBUNDLES
 
     # my bundles
-    garodriguezlp/zsh-bootstrap bundles/p10k
-    garodriguezlp/zsh-bootstrap bundles/tmux
-    garodriguezlp/zsh-bootstrap bundles/fzf
+    holgiosalos/zsh-bootstrap --branch=safefleet bundles/p10k
+    holgiosalos/zsh-bootstrap --branch=safefleet bundles/tmux
+    holgiosalos/zsh-bootstrap --branch=safefleet bundles/fzf
+    holgiosalos/zsh-bootstrap --branch=safefleet bundles/safefleet
 
     # from oh-my-zsh's library
     git
@@ -14,8 +15,8 @@ antigen bundles <<EOBUNDLES
     github
 
     ## just for java development
-    jenv
-    mvn
+    # jenv
+    # mvn
 
     # from zsh-users
     zsh-users/zsh-syntax-highlighting

@@ -37,6 +37,6 @@
     - ./scripts/httpie-installer.sh
 
     # Just for java development
-    - ./scripts/java-installer.sh
-    - ./scripts/maven-installer.sh
-    - ./scripts/jenv-installer.sh
+    # - ./scripts/java-installer.sh
+    # - ./scripts/maven-installer.sh
+    # - ./scripts/jenv-installer.sh

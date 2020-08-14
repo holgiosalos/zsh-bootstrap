@@ -1,12 +1,14 @@
 [user]
-	name = Gustavo Adolfo Rodriguez
-	email = 1432287+garodriguezlp@users.noreply.github.com
+    name = Holmes Salazar
+    email = hsalazaro@psl.com.co
 [hub]
-	protocol = https
+    protocol = https
 [credential]
-	helper = "!f() { echo password=$GITHUB_TOKEN;  }; f"
-	username = garodriguezlp
+    helper = "!f() { echo password=$GITHUB_TOKEN;  }; f"
+    username = holgiosalos
 [core]
-	editor = vim
+    editor = vim
 [alias]
-	ignore = "!gi() { curl -sL https://www.gitignore.io/api/$@ ;}; gi"
+    ignore = "!gi() { curl -sL https://www.gitignore.io/api/$@ ;}; gi"
+[commit]
+    gpgSign = true
