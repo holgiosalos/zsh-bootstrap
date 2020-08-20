@@ -1,6 +1,7 @@
 [user]
     name = Holmes Salazar
     email = hsalazaro@psl.com.co
+    signingkey = 24B1225D2A1D895F
 [hub]
     protocol = https
 [credential]

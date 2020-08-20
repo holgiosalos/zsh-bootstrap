@@ -7,3 +7,6 @@
 # antigen
 source "$HOMEBREW_PREFIX/share/antigen/antigen.zsh"
 antigen init ~/.antigenrc
+
+# safe fleet conf
+[[ -f "$HOME/.safefleet" ]] && source "$HOME/.safefleet"

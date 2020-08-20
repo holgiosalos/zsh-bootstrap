@@ -15,6 +15,7 @@
     ~/.tmux.conf.local: dotfiles/tmux.conf.local
     ~/.gitconfig: dotfiles/gitconfig
     ~/.vimrc: dotfiles/vimrc
+    ~/.safefleet: dotfiles/safefleet
 
 - shell:
     - ./scripts/secrets-setup.sh

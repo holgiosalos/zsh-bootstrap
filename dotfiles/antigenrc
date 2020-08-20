@@ -5,7 +5,6 @@ antigen bundles <<EOBUNDLES
     holgiosalos/zsh-bootstrap --branch=safefleet bundles/p10k
     holgiosalos/zsh-bootstrap --branch=safefleet bundles/tmux
     holgiosalos/zsh-bootstrap --branch=safefleet bundles/fzf
-    holgiosalos/zsh-bootstrap --branch=safefleet bundles/safefleet
 
     # from oh-my-zsh's library
     git

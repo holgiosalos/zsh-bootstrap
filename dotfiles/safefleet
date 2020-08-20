@@ -8,9 +8,9 @@ if [ -d "/usr/local/go/bin" ] ; then
     export PATH="$PATH:/usr/local/go/bin"
 fi
 
-export AWS_PROFILE=holmes-sandbox
+export AWS_PROFILE=seon
 
 # loading ce-wrappers
-if [ -d "/opt/ce-wrappers" ] ; then
-    source /opt/ce-wrappers/load_wrappers.sh
-fi
+CE_WRAPPERS_DIR="/opt/ce-wrappers"
+# shellcheck source=/opt/ce-wrappers/load_wrappers.sh
+[[ -d $CE_WRAPPERS_DIR ]] && source "$CE_WRAPPERS_DIR/load_wrappers.sh"
